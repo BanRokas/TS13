@@ -1,0 +1,85 @@
+body{
+  background-color: rgb(193, 193, 193);
+}
+
+.slepti{
+  display: none;
+}
+.rodyti{
+  display: block;
+}
+
+.klasesPavadinimas{
+  color: blue;
+  background-color: beige;
+  margin: 0;
+  padding: 10px;
+  width: 150px;
+}
+
+#selektoriuSarasas{
+  list-style-type: square;
+}
+
+.paryskintas{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.kvadratas{
+  width: 100px;
+  height: 100px;
+  background-color: darkslateblue;
+  border: 3px solid greenyellow;
+  color: yellow;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+}
+.inline{
+  display: inline;
+}
+.block{
+  display: block;
+}
+.inlineBlock{
+  display: inline-block;
+}
+
+.didelisDiv{
+  width: 80%;
+  height: 50vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+.raudonasTekstas{
+  color: red;
+}
+.zaliasTekstas{
+  color: green;
+}
+
+.fonoImage{
+  background-image: url('../images/potato.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.fonoSpalva{
+  background-image: linear-gradient(
+    to bottom,
+    blue,
+    red,
+    yellow
+  );
+}
+/* .didelisDiv > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+} */

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 paskaita - CSS niuansai</title>
+    <!-- <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"> -->
+
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+
+      </nav>
+    </header>
+    <main>
+      <section class="dirbam"> <!-- Tėviniai / vaikiniai -->
+        <h1>Tėviniai ir vaikiniai elementai</h1>
+        <p>
+          Elementas esantis kažkokio elemento viduje yra vaikinis elementas, tam elementui, kurio viduje jis yra.<br>
+          Elementas turintis savo viduje kitus elementą, yra tėvinis elementas, tam kitam elementams, kuris yra jo viduje.
+        </p>
+        <ul>
+          <li>ul vaikas1</li>
+          <li>ul vaikas2</li>
+          <li>
+            ul vaikas3; ol tėvas
+            <ol> <!-- li3 vaikas1-->
+              <li>ol vaikas1</li>
+              <li>ol vaikas2</li>
+              <li>ol vaikas3</li>
+            </ol>
+          </li>
+          <li>ul vaikas4</li>
+        </ul>
+      </section>
+      <section > <!-- Paveldėjimas -->
+        <h1>Paveldėjimas</h1>
+        <p>
+          Iš protėvinio elemento, vaikiniai elementai paveldi tam tikrus stilius. Paveldimi stiliai dažniausiai būna kažkas paprasto kaip: teksto spalva, šriftas, dydis ir pns... Nepaveldimi yra dydžio, display, fono, rėmelių ir pns. nustatymai.
+        </p>
+        <ul class="paveldim">
+          <li>pirmas</li>
+          <li>antras</li>
+          <li>
+            trečias
+            <ul>
+              <li>trečio pirmas</li>
+              <li>trečio antras</li>
+              <li>trečio trečias</li>
+            </ul>
+          </li>
+          <li>ketvirtas</li>
+        </ul>
+      </section>
+      <section style="background-image: linear-gradient(to top, rgb(184, 128, 128), rgb(102, 102, 149));" class="pereinamasFonas pereinamasFonas3" id="pereinamasFonas2"> <!-- Stilių prioritetai -->
+        <h1>Stilių prioritetai</h1>
+        <ol>
+          <li>Inline Style</li>
+          <li>ID</li>
+          <li>Class</li>
+          <li>Element Selector</li>
+          <li>CSS order (in CSS code)</li>
+          <li>Element default style</li>
+          <li>Inheritence</li>
+        </ol>
+        <p>
+          Esant dviem selektoriam, kurie nusako to paties elemento vienodus stilius yra atsižvelgiama į tų selektorių prioritetus. Aukščiau esantys selektoriai, turi didesnį prioritetą (žiūrėti į sąrašą).<br>
+          Esant dviem vienodo prioriteto selektoriams (keičiant vienodą stilių) yra atsižvelgiama į CSS eiliškumą (kuris CSS parašytas vėliau, tas ir bus taikomas).
+        </p>
+        <p class="mb_0">
+          <span class="warning">JEIGU ĮMANOMA - NENAUDOTI!!!</span> !important prierašas prie stiliau ignoruoja visus prioritetus ir suteikia tą stilių ir niekas jo pakeist negali apart kito !important, kuris turėtų aukštesnį prioritetą.
+        </p>
+      </section>
+      <section> <!-- Browser Default Styles -->
+        <h1>Browser Default Styles</h1>
+        <h2>Browser Default Styles</h2>
+        <p>
+          Tag'ai gali turėti savitus stilius, kurie jiem yra suteikiami pačių naršyklių.<br>
+          Kartais skirtingos naršyklės turi minimalistiškai skirtingus numatytuosius stilius. Tai gali paveikti svetainės išvaizdą.<br>
+          Kartais numatytieji stiliai pagadina svetainės vaizdą arba apsunkina programuotojo darbą.
+        </p>
+        <p>
+          Yra keletas būdų spręsti nenorimų numatytų stilių sukeliamas problemas.<br>
+          Vienas iš būdų yra nuimti visus numatytuosius stilius nuo savo svetainėje naudojamų tag'ų yra naudoti <a href="https://meyerweb.com/eric/tools/css/reset/" target="_blank">Reset CSS</a>.<br>
+          Kitas (plačiau naudojamas) būdas yra normalizuoti numatytuosius stilius tarp skirtingų naršyklių ir dalį jų panaikinti/pakeisti naudojant <a href="https://necolas.github.io/normalize.css/" target="_blank">Normalize CSS</a>.
+        </p>
+      </section>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>

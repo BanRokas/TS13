@@ -1,0 +1,2 @@
+1) Pasidaryti CAO (Lesson 3 Daugiau apie HTML ir CSS bei naršyklės įrankius).
+2) Sukurti puslapį, kuriame būtų sekcijos ar straipsniai apie 5 jūsų mėgstamiausias vietas. Apie vietas turi būti aprašyta minimali info, nuotrauka. Turi būti menu, kuris nukreips į atskiras sekcijas/straipsnius.

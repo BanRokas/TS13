@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3 paskaita - CSS Įvadas</title>
+
+  <link href="./styles/main.css" rel="stylesheet">
+
+  <style>
+    h4{
+      color: orange;
+      border: 5px dashed rgb(20, 96, 21);
+    }
+  </style>
+</head>
+<body>
+  <div class="slepti"> <!-- CSS rašymo būdai -->
+    <h1>CSS rašymo būdai</h1>
+    <p>
+      <b>Inline / Linijinis</b> - Stilizuojame elementą, suteikdami jam style atributą ir tame atribute nurodome stilius kabutėse už lygybės.<br>
+      Dažniausiai naudojamas norint ant greitųjų pastilizuoti kažkokį elementą, patikrinti kaip jis atrodytų (testuoti).<br>
+      Style atributo viduje, rašomas kodas nėra CSS sintaksė.
+    </p>
+    <p style="color: red; background-color: black; font-size: 12px">
+      Inline pavyzdys
+    </p>
+    <p>
+      <b>Internal / Vidinis</b> - Stilizuojame elementą, jį parinkdami selektoriaus pagalba, o patį CSS kodą rašome head tag'o dalyje sukurtame style tag'e.<br>
+      Dažniausiai naudojamas norint ant greitųjų kažką pastilizuoti, patikrinti kaip atrodytų stiliai/ius (testuoti).<br>
+    </p>
+    <h4>Internal pavyzdys</h4>
+    <p>
+      <b>External / Išorinis</b> - Stilizuojame elementą, jį parinkdami selektoriaus pagalba, o patį CSS kodą rašome atskirame CSS faile, kurį prijungiame prie HTML failo link tag'o pagalba.<br>
+      Dažniausiai naujamas CSS rašymo būdas. Jo didžiausi privalumai yra tvarka HTML faile ir didelės perpanaudojimo galimybės.
+    </p>
+    <p class="klasesPavadinimas">External pavyzdys</p>
+  </div>
+  <div class="slepti"> <!-- basic selectors -->
+    <h1>Selektoriai</h1>
+    <ul id="selektoriuSarasas">
+      <li>element - parenka visus elementus (tag'us) ir suteikia jiems nurodytus stilius.</li>
+      <li>class - sukuriama rašant tašką '.' ir išgalvotą pavadinimą. Stiliai taikomi tiems elementams, kurie turi identišką class atributo nurodymą.</li>
+      <li>id - sukuriamas rašant groteles '#' ir išgalvotą pavadinimą. Stiliai taikomi tam elementui, kuris turi identišką id atributo nurodymą.</li>
+    </ul>
+    <p>
+      <span class="paryskintas">Klasės</span> turi daug su daug santykį. Vienas elementas gali turėti daug klasių. Viena klasė gali būti priskirta daugeliui elementų.
+    </p>
+    <p>
+      <span class="paryskintas">ID</span> turi vienas su vienu santykį. Vienas elementas gali turėti TIK vieną ID. Vienas ID turėtų būti priskirtas TIK vienam elementui.
+    </p>
+  </div>
+  <div class="slepti"> <!-- spalvos -->
+    <h1>Spalvos</h1>
+    <ul>
+      <li>
+        <a href="https://htmlcolorcodes.com/" target="_blank">
+          Spalvos pavadinimas
+        </a>; Yra 140 spalvų pavadinimų.
+      </li>
+      <li>RGB - Red Green Blue</li>
+      <li>HEX - #rrggbb</li>
+    </ul>
+    <p>
+      RGB - <span class="raudonasTekstas">Red</span> Green Blue. Nurodai kiek kokios pagrindinės spalvos nori įmaišyti į išgaunamą spalvą. Kiekis nurodomas nuo 0 iki 255. rgb(red, green, blue)<br>
+      RGBA - <span class="raudonasTekstas">Red</span> Green Blue Alpha(Opacity(permatomumas)). Norint suteikti spalvai permatomumą, reikia prie RGB pridėti A raidę ir pridėti 4'tą parametrą nustatyme. rgba(red, green, blue, alpha)
+    </p>
+    <p>
+      HEX - hexadecimal(šešioliktainis). Nurodai kiek kokios pagrindinės spalvos nori įmaišyti į išgaunamą spalvą. Kiekis nurodomas nuo 00 iki ff. #rrggbb<br>
+      HEX with Alpha (su permatomumu). Norint suteikti spalvai permatomumą, reikia prie hex simbolių pridėti dar vieną porą simbolių, kurie nurodys permatomumą. #rrggbbaa<br>
+      00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 ... a9 aa ab ac ad ae af b0 b1 b2 ... ff<br>
+      Trumpinai: jeigu spalva būtų #aabbcc, galima ją trumpinti į #abc; #ffffff -> #fff; #111111 -> #111;
+    </p>
+  </div>
+  <div class="slepti"> <!-- display -->
+    <h1>Display</h1>
+    <ul>
+      <li>none - neatvaizduojama ekrane</li>
+      <li>block - suteikiamas blokinis stilius</li>
+      <li>inline - suteikiamas linijinis stilius</li>
+      <li>inline-block - suteikiamas linijinis-blokinis stilius</li>
+    </ul>
+    <p>
+      block - užima visą eilutę ir galima keisti jo dydį.
+    </p>
+    <p>
+      inline - užima tik tiek vietos kiek reikalauja content ir negalima keisti dydžio.
+    </p>
+    <p>
+      inline-block - užima tiek vietos kiek reikalauja content ir galima keisti elemento dydį.
+    </p>
+    <div>
+      <h3>Inline</h3>
+      <div class="kvadratas inline">1</div>
+      <div class="kvadratas inline">2</div>
+      <div class="kvadratas inline">3</div>
+      <h3>Block</h3>
+      <div class="kvadratas block">1</div>
+      <div class="kvadratas block">2</div>
+      <div class="kvadratas block">3</div>
+      <h3>Inline-Block</h3>
+      <div class="kvadratas inlineBlock">1</div>
+      <div class="kvadratas inlineBlock">2</div>
+      <div class="kvadratas inlineBlock">3</div>
+    </div>
+  </div>
+  <div class="didelisDiv fonoSpalva"> <!-- fonai -->
+    <h1>Fonai</h1>
+    <!-- <img src="./images/nature4.jpg" alt=""> -->
+  </div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+1) Pasidaryti CAO (Lesson 2 Įžanga į CSS).
+2) Sukurti 5 vėliavas su jų šalių pavadinimais virš vėliavų.
+3) Pasidomėkite gradientais.
