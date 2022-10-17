@@ -1,0 +1,34 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+
+body{
+  height: 500vh;
+}
+
+.dezutesModelioPavyzdys{
+  text-align: center;
+  background-color: rgb(187, 229, 248);
+  /* Content */
+  /* display: inline-block; */
+  font-size: 24px;
+  line-height: 50px;
+  height: 50px;
+  width: 150px;
+  /* Padding */
+  padding: 10px;
+  /* Border */
+  border: 5px solid orange;
+  border-radius: 10px 20px 30px 40px;
+  /* border-width: 5px 3px 10px;
+  border-style: dashed double;
+  border-color: red blue yellow green; */
+  /* Margin */
+  margin: 10px auto;
+  /* Position */
+  position: relative;
+  left: 100px;
+}
+
+.dezutesModelioPavyzdys:hover{
+  background-color: red;
+  color: white;
+}
