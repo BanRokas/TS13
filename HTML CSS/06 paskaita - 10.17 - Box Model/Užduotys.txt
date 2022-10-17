@@ -1,0 +1,8 @@
+1) DropDown menu su hover (ne click)
+2) CAO:
+  2.1) Viską persiskaityt.
+  2.2) Plačiau pasidomėti CSS ilgio vienetais (ne tik kiek CAO rodo).
+  2.3) Maxima puslapio užduotis (gali būti multi-page jeigu norite).
+3) Kortelė pagal paveiksliuką. Sukurti 5 korteles apie jūsų mėgstamas vietas/filmus/aktorius...
+
+extra) Patobulinti kortelę - jeigu užeinama ant kortelės su pele - kaipnors parodomas kortelės aprašymas. (visa kortelė apsiverčia / kortelės teksto dalis apsiverčia / išnyksta pavadinimas ir atsiranda aprašymas........) (transition su transform)
