@@ -57,3 +57,33 @@ body{
 .menu:hover .dropDown{
   display: block;
 }
+
+.kortele_1{
+  height: 400px;
+  width: 900px;
+  border: 3px solid red;
+  background-image: url('../images/nature8.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+
+.korteles_1_tekstas{
+  margin: 20px;
+  padding: 0 20px;
+  height: calc(100% - 40px);
+  width: calc(50% - 80px);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.korteles_1_tekstas h2{
+  text-align: center;
+  margin: 0;
+}
+.korteles_1_tekstas p{
+  text-align: center;
+}
