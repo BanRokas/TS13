@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7 paskaita - Multimedija</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <main>
+    <section>
+      <h1>Multimedijos elementai</h1>
+      <ul>
+        <li>Image</li>
+        <li>Video</li>
+        <li>Audio</li>
+        <li>Map</li>
+        <li>Animacija</li>
+      </ul>
+      <div id="images">
+        <h2>Images</h2>
+        <img src="./media/images/Mickey.png" alt="MickeyMousePng" class="imgSizeSmall">
+        <img src="badUrl" alt="MickeyMousePng" class="">
+      </div>
+      <div id="audios">
+        <h2>Audios</h2>
+        <audio controls>
+          <source src="./media/audios/PrismoSolo.mp3" type="audio/mp3">
+        </audio>
+        <audio src="./media/audios/PrismoSolo.mp3" controls></audio>
+      </div>
+      <div id="videos">
+        <h2>Videos</h2>
+        <video controls class="videoSizeSmall">
+          <source src="./media/videos/PrismoSolo.mp4" type="video/mp4">
+        </video>
+        <video src="./media/videos/PrismoSolo.mp4" controls class="videoSizeSmall"></video>
+        <iframe class="videoSizeSmall" src="https://www.youtube.com/embed/fL1pnzQj5j8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="maps">
+        <h2>Maps</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d494605.28901584697!2d23.6450744486653!3d54.83953779100589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slt!4v1666076229007!5m2!1sen!2slt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div id="pages">
+        <iframe src="https://lrs.lt/" frameborder="0"></iframe>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
