@@ -1,0 +1,8 @@
+1) Pasidaryti lentelę (laisva tema, apie ką norite), kuri būtų bent 5 eilučių ir 5 stulpelių.
+  1.1) Padaryti, kad užėjus ant lentelės elemento, jo fono ir teksto spalva pakeistų spalvą.
+  1.2) Padaryti, kad užėjus ant lentelės elemento, visos to elemento eilutės fono ir teksto spalva pakeistų spalvą.
+  1.3) Padaryti, kad užėjus ant lentelės elemento, visos to elemento eilutės ir stulpelio fono spalva pakeistų spalvą.
+  P.S. Spalvos 1.1 1.2 ir 1.3 užduotyje turi būti skirtingos. Galima keisti ne tik spalvas jei yra noro ir laiko.
+2) Padaryti CAO (Lesson 7 HTML lentelės) užduotį.
+3) Galima pasidomėti likusiais selektoriais (apie juos aiškinsimės kitą dieną).
+4) Galima skirti laiko prisiminti formas ir jų įvesčių laukų tipus.
