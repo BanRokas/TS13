@@ -1,0 +1,9 @@
+.nthTryOut 
+p:nth-child(-n+3){
+  background-color: rgb(155, 255, 176);
+}
+
+.ib{
+  display: inline-block;
+  margin-left: 30px;
+}

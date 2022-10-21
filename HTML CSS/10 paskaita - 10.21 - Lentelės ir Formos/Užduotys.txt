@@ -1,0 +1,4 @@
+1) Pasidaryti CAO (Lesson 8 CSS pseudo klasės ir pseudo elementai) praktinę užduotį.
+2) Perskaityti CAO (Lesson 9 HTML Formos) medžiagą.
+3) Padaryti CAO (Lesson 9 HTML Formos) praktinę užduotį.
+4) Padaryti formą, pagal pateiktą paveikslėlį (./images/forma.png)

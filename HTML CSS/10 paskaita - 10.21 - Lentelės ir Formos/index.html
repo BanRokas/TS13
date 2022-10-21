@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10 paskaita - Lentelės ir Formos</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <!--
+    nth / child / type
+    CSS Diner baigti (15-24)
+    CAO 8
+    Formos
+    CAO 9
+  -->
+  <main>
+    <section id="selectors">
+      <h1>Selectors</h1>
+      <ul>
+        <li>:first-child</li>
+        <li>:last-child</li>
+        <li>:only-child</li>
+        <li>:first-of-type</li>
+        <li>:last-of-type</li>
+        <li>:only-of-type</li>
+        <li>:nth-child(n)</li>
+        <li>:nth-last-child(n)</li>
+        <li>:nth-of-type(n)</li>
+        <li>:nth-last-of-type(n)</li>
+        <li>:not(selector)</li>
+        <li>::first-letter</li>
+        <li>::first-line</li>
+        <li>:empty</li>
+        <li>:fullscreen</li>
+        <li>:target</li>
+      </ul>
+      <p>
+        Pirmas/Paskutinis/Vienintelis vaikinis elementas, lygmenyje įgauna nurodytus stilius. Galima tikslinti koks tai elementas prieš dvitaškį nurodant elemento/id/klasės ar kitą selektorių.
+      </p>
+      <p>
+        Pirmas/Paskutinis/Vienintelis nurodyto tipo elementas, lygmenyje įgauna nurodytus stilius. Ignoruoja kito tipo elementus (ne taip kaip child selektorius).
+      </p>
+      <p>
+        NTH žymėjimas nurodo kelintą / kas kelintą / kas kelintą  nuo kelinto elemento (type/child) select'ini.
+      </p>
+    </section>
+    <section>
+      <h1><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child" target="_blank">NTH pvz</a></h1>
+      <div class="nthTryOut">
+        <!-- p*10>lorem10 -->
+        <p>1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, reiciendis.</p>
+        <p>2 Corporis ullam cumque eius aspernatur voluptatum alias dolorem fugiat ad.</p>
+        <p>3 Cumque inventore facere dolorum rem ratione quos exercitationem beatae voluptatibus.</p>
+        <p>4 Cupiditate consectetur eaque expedita consequuntur rem praesentium, provident tempore culpa!</p>
+        <p>5 Possimus ea expedita deleniti voluptatibus tempora autem. Fuga, labore est!</p>
+        <p>6 Sapiente, repellat recusandae. Perferendis distinctio assumenda rem dicta quo nisi?</p>
+        <p>7 Rem laudantium ad est totam voluptates exercitationem et illo repudiandae?</p>
+        <p>8 Minus distinctio quaerat sunt voluptates corporis numquam eum neque aperiam.</p>
+        <p>9 Asperiores natus quaerat ut ullam illum eligendi blanditiis pariatur delectus.</p>
+        <p>10 Nemo sunt ipsam amet possimus architecto. Quibusdam esse ducimus incidunt.</p>
+      </div>
+    </section>
+    <section id="forms">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">input</a>
+      <form>
+        <fieldset>
+          <legend>Formos pavadinimas</legend>
+          <div>
+            <h3>Pasirinkite valgius</h3>
+            <div class="ib">
+              <label for="sriuba">Sriuba</label>
+              <input type="radio" id="sriuba" name="valgis" value="sriuba" checked required>
+            </div>
+            <div class="ib">
+              <label for="zuvis">Žuvis</label>
+              <input type="radio" id="zuvis" name="valgis" value="zuvis">
+            </div>
+            <div class="ib">
+              <label for="vistiena">Vištiena</label>
+              <input type="radio" id="vistiena" name="valgis" value="vistiena">
+            </div>
+          </div>
+          <div>
+            <select name="mealChoice" id="" required>
+              <option value=""></option>
+              <option value="1">vištiena</option>
+              <option value="2">sriuba</option>
+              <option value="3">žuvis</option>
+            </select>
+          </div>
+          <div>
+            <input type="email" name="emailas" id="" required>
+          </div>
+          <div>
+            <textarea name="tekstas" id="" cols="30" rows="10" placeholder="ra6ykite cia..."></textarea>
+          </div>
+          <input type="submit" value="tekstas">
+          <!-- <button>pateikti</button> -->
+        </fieldset>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
