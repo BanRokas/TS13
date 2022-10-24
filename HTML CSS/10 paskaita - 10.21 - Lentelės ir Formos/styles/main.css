@@ -7,3 +7,16 @@ p:nth-child(-n+3){
   display: inline-block;
   margin-left: 30px;
 }
+
+
+td{
+  background-color: grey;
+}
+
+/* tbody tr:nth-child(2n+1){
+  background-color: rgb(118, 118, 118);
+} */
+
+tbody tr:nth-child(2n) td{
+  background-color: aliceblue;
+}
