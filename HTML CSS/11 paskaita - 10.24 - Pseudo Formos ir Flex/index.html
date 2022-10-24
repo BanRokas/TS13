@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>11 paskaita - Pseudo formos ir Flex</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <!--
+    formų pseudo klasės
+    ikonos
+    formos CAO 10 užduotis
+    Flex
+  -->
+  <main>
+    <section id="pseudoFormos">
+      <h1>Formų pseudo selektoriai</h1>
+      <ul>
+        <li>input:checked - pažymėtą radio/checkbox elementą</li>
+        <li>input:default - iš pradžių (by default) pažymėtą elementą</li>
+        <li>input:enabled - įgalintas (leidžiamas pildyti) elementas</li>
+        <li>input:disabled - neįgalintą (neleidžiamą pildyti) elementą</li>
+        <li>input:focused - šiuo metu fokusuotas (pildomas) elementas</li>
+        <li>input:in-range - elementas, kurio įvestis yra nurodytose ribose</li>
+        <li>input:out-of-range - elementas, kurio įvestis yra už nurodytų ribų</li>
+        <li>input:indeterminate - elementas, kurio įvestis yra nenustatyta (weird as hell)</li>
+        <li>input:valid - elementas, kurio įvestis teisinga</li>
+        <li>input:invalid - elementas, kurio įvestis neteisinga</li>
+        <li>input:optional - elementas, be required atributo</li>
+        <li>input:required - elementas, su required atributu</li>
+        <li>input:read-write - elementas, be readonly atributo</li>
+        <li>input:read-only - elementas, su readonly atributu</li>
+        <li>input::placeholder - placeholder atributo informacijos selektorius</li>
+      </ul>
+    </section>
+    <section id="ikonos">
+      <h1>Ikonos</h1>
+      <p>
+        Tam, kad galėtum naudoti ikonas, reikia suimportuoti vieną iš specifinių bibliotekų. Tų bibliotekų yra daug, pvz.: Font-Awesome, Bootstrap, Google...
+      </p>
+      <p>
+        span VS i<br>
+        i tag'as kelia asociacijas su žodžiu icon ir užima mažiau vietos (7 simboliai pilnam tag'ui).<br>
+        span tag'as yra taisyklingesnis variantas, nes yra tuščias tag'as skirtas stilizuoti. Bet jis užima daugiau vietos (13 simbolių pilnam tag'ui) ir nekelia asociacijų su žodžiu icon.
+      </p>
+      <p>
+        Ikonos yra stilizuojamos kaip tekstiniai elementai.
+      </p>
+      <div>
+        <h3>Font-Awesome</h3>
+        <i class="fa fa-500px ikona"></i>
+        <span class="fa fa-bell"></span>
+        <i class="fa">&#xf206;</i>
+      </div>
+      <div>
+        <h3>Bootstrap</h3>
+        <i class="glyphicon glyphicon-bullhorn"></i>
+        <span class="glyphicon glyphicon-font"></span>
+        <i class="glyphicon">&#x231b;</i>
+      </div>
+      <div>
+        <h3>Google</h3>
+        <i class="material-icons">3d_rotation</i>
+        <span class="material-icons">camera</span>
+        <span class="material-icons">&#xe1a7;</span>
+      </div>
+    </section>
+    <section id="flex">
+      <h1>Flex</h1>
+
+
+      <div class="flexKonteineris">
+        <div class="flexElementas centruotiSuFlex">1</div>
+        <div class="flexElementas centruotiSuFlex">2</div>
+        <div class="flexElementas centruotiSuFlex">3</div>
+        <div class="flexElementas centruotiSuFlex">4</div>
+        <div class="flexElementas centruotiSuFlex">5</div>
+        <div class="flexElementas centruotiSuFlex">6</div>
+        <div class="flexElementas centruotiSuFlex">7</div>
+        <div class="flexElementas centruotiSuFlex">8</div>
+        <div class="flexElementas centruotiSuFlex">9</div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,6 @@
+1) Pasibaigti CAO (Lesson 10 CSS user-action pseudo klasės).
+2) Pažaisti Flexbox Froggy, Flexbox Defense žaidimus.
+3) Pratestuoti įvairius flex nustatymus ir jų mišinius.
+4) Pasidaryti CAO (Lesson 11 CSS Flexbox) užduotį.
+5) Pasibaigti nebaigtus darbus iš praėjusios savaitės.
+6 extra) Pasidaryti FlexBox dokumentaciją.
