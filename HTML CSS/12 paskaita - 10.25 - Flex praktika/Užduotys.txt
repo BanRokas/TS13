@@ -2,4 +2,4 @@
 2) Atkartoti Page.PNG puslapį kuo plačiau naudojant flex.
 3) Atkurti flexSimple.PNG pavaizduotą kvadratų išdėstymą naudojant flex. 
 4) Atlikti CAO (Lesson 12 TODO) praktinę užduotį.
-5) Atlikti gridFlexTASK.jpg užduotį, kurioje reikia atkartoti visų 20 pavyzdžių kvadratų išdėstymus naudojant flex. (galima atlikti per keletą dienų, po to tą patį reiks daryti su Grid)
+5) Atlikti gridFlexTASK.jpg užduotį, kurioje reikia atkartoti visų 20 pavyzdžių kvadratų išdėstymus naudojant flex (4 stulpelis - sunkūs). (galima atlikti per keletą dienų, po to tą patį reiks daryti su Grid)

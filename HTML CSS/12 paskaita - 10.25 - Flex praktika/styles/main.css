@@ -51,8 +51,51 @@ header nav{
 }
 
 /* BODY */
-/* HERO */
+/* BIG TASK */
+#bigFlexTask{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#bigFlexTask > div{
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+.fonas{
+  background-image: url('../images/nature9.jpg');
+  background-size: cover;
+}
 
-
-/* ABOUT */
-
+/* 9 */
+.nr9{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.nr9RedTop{
+  background-color: rgb(255, 0, 0);
+  flex-grow: 2;
+}
+.nr9RedBottom{
+  background-color: rgb(255, 0, 0);
+  display: flex;
+  gap: 3px;
+  flex-grow: 1;
+}
+.nr9RedBottom > div:nth-child(1),
+.nr9RedBottom > div:nth-child(2){
+  background-color: orange;
+  flex-grow: 2;
+}
+.nr9RedBottomOrange3{
+  background-color: orange;
+  flex-grow: 1;
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+}
+.nr9RedBottomOrange3 > div{
+  flex-grow: 1;
+  background-color: green;
+}
