@@ -1,0 +1,6 @@
+1) Perskaityti CAO (Lesson 13 CSS Grid).
+2) Padaryti CAO (Lesson 13 CSS Grid) užduotį.
+3) Padaryti grid1.PNG užduotį.
+4) Padaryti grid2.png užduotį (D elementas tuščias).
+5) Padaryti gridOverlap.png užduotį. (gridOverlapLines.png skirtas pasižiūrėti linijas jeigu reikia pagalbos)
+6) Pradėti daryti gridFlexTASK.jpg užduotį. (baigti iki savaitės galo kartu su šios flex dalimi)
