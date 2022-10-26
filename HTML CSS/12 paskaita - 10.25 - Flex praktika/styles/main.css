@@ -99,3 +99,43 @@ header nav{
   flex-grow: 1;
   background-color: green;
 }
+
+/* Unicorn task */
+.bigDiv{
+  width: 900px;
+  height: 500px;
+  display: flex;
+  gap: 5px;
+  padding: 15px;
+  background-color: grey;
+}
+
+.kortele{
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img{
+  height: 50%;
+  background-image: url('../images/nature9.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.info{
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info p{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.info button{
+  width: 100%;
+}
