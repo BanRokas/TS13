@@ -1,0 +1,7 @@
+1) grid3.PNG
+2) grid4.PNG
+3) grid5.png (nebūtina (jei darote tai gausite intro į bootstrap grid sistemą))
+4) Pasibaigti 13 paskaitos uždavinius (apart gridFlexTASK.jpg).
+5) ...
+  arba) Darytis gridFlexTask.jpg su grid'u ir flex'u.
+  arba) gridPeriodicTable.png (galima daryti identiškai pagal pateiktą paveikslėlį (kuris nėra visi teisingas) arba google)
