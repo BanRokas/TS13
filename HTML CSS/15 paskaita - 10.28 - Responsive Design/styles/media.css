@@ -18,3 +18,24 @@
     background-color: aquamarine;
   }
 }
+
+
+@media (max-width: 990px) /*and (min-width: 751px)*/{
+  #task1{
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, 195px);
+  }
+  .trecias{
+    grid-area: 1 / 2 / 3 / 3;
+  }
+}
+
+@media (max-width: 750px){
+  #task1{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 195px);
+  }
+  .trecias{
+    grid-area: initial;
+  }
+}
