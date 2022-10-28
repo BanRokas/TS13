@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>15 paskaita - Responsive Design</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/media.css">
+</head>
+<body>
+  <main>
+    <section id="mediaQueries">
+      <h1>Media Queries</h1>
+      <p>
+        Media queries naudojami kai norime, kad ekranui esant specifiniam pločiui yra naudojami specifiniai stiliai. (maži ekranai, turi kitokius stilius, nei dideli ekranai).
+      </p>
+      <p>
+        @media extra (min/max-width: 999px) { styles }
+      </p>
+      <p>
+        Galima nurodyti, kad tam tikri stiliai galiotų tik tam tikrose ekrano pločio ribose: <br>
+        @media extra (min-width: 500px) and (max-width: 600px) { ... }
+      </p>
+      <h1>Breakpoints</h1>
+      <p>
+        Ekrano lūžio taškai nurodytuose ekrano pločiuose. Lūžio taškų pločius nusirodome kokius tik norime. Minimalistiškai skirstoma į 3 ekranus: mobile, tablet, desktop.
+      </p>
+      <h3>pvz.:</h3>
+      <ol>
+        <li>560px</li>
+        <li>760px</li>
+        <li>990px</li>
+        <li>1192px</li>
+        <li>1400px</li>
+      </ol>
+    </section>
+  </main>
+</body>
+</html>
