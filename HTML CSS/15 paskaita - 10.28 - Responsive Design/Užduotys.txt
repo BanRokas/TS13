@@ -1,0 +1,7 @@
+1) Atlikti task1.PNG užduotį.
+2) Atlikti task2.png užduotį.
+3) Atlikti CAO (Lesson 14 Responsive Web Design) praktinę užduotį.
+4) Atlikti task3.jpg užduotį.
+5) Pasidomėti apie Mobile First dizaino praktiką. Kodėl taip daroma, kokie pliusai ir pns.
+6) Perskaityti/peržiūrėti CAO (Lesson 15 Mobile-first dizainas) esančią informaciją.
+7) Jeigu yra laiko daryti CAO (Lesson 15 Mobile-first dizainas) esančią užduotį. (šeip ją darysime ryt ryte)
