@@ -1,0 +1,5 @@
+1) Pasidomėti apie Mobile First dizaino praktiką. Kodėl taip daroma, kokie pliusai ir pns.
+2) Perskaityti/peržiūrėti CAO (Lesson 15 Mobile-first dizainas) esančią informaciją.
+3) Jeigu yra laiko daryti CAO (Lesson 15 Mobile-first dizainas) esančią užduotį. (šeip ją darysime ryt ryte)
+4) Pasirinkti ir daryti vieną iš tryjų pateiktų responsiveDesignX.jpg užduočių.
+5) Atlikus 4 užduotį, pasirinkti sekantį dizainą arba prašyti extraProjekto.
