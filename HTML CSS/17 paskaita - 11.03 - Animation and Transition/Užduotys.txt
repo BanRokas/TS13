@@ -1,0 +1,8 @@
+1) Perskaityti/peržiūrėti CAO (Lesson 16 Animacijos ir perėjimai).
+2) Paieškoti internete sukurtų animacijų ir pasidomėti kaip jos buvo sukurtos. Atkartoti (ne copy paste, bet perrašyti) 1-3 rastų animacijų. (nesirinkti super duper ultra sudėtingų, nes perrašinėsite iki kitų metų galo)
+3) Atlikti CAO (Lesson 16 Animacijos ir perėjimai) praktinę užduotį.
+4) Atlikti šias užduotis:
+  4.1) Sukurti lengvą paveikslėlio judėjimą aukštyn/žemyn vienoje vietoje (tarsi elementas levituotu).
+  4.2) Atkartoti CSS Diner žaidime esančią elementų animaciją (vingiavimą į šonus).
+  4.3) Padaryti taip, kad užėjus su kursoriumi ant nuotraukos, jai iš po apačios iki vidurio pakiltų dalinai permatoma informacinė dėžutė su tekstu. 
+  4.4 extra) Pasidomėkite apie animacijas daugiau / pakurkite įdomesnių animacijų.

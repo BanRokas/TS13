@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>17 paskaita - Animation and Transition</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <main>
+    <section id="transition">
+      <h1>Transition</h1>
+      <ul>
+        <li>transition-property - nurodai kurie stiliai suteikiami vykstant tranzicijai</li>
+        <li>transition-duration - nurodai per kiek laiko įvyks tranzicija</li>
+        <li>transition-timing-function - nurodai kaip tranzicija vyksta per pateiktą laiką</li>
+        <li>transition-delay - nurodai po kiek laiko pradės vykti tranzicija</li>
+        <li>transition - transition-property transition-duration transition-timing-function transition-delay</li>
+      </ul>
+    </section>
+    <section id="transitionPvz">
+      <div class="kvadratas"></div>
+    </section>
+    <section id="timingFunctions">
+      <h1>Timing functions</h1>
+      <ul>
+        <li>linear</li>
+        <li>ease</li>
+        <li>ease-in</li>
+        <li>ease-out</li>
+        <li>ease-in-out</li>
+        <li>step-start</li>
+        <li>step-end</li>
+        <li>cubic-bezier</li>
+      </ul>
+    </section>
+    <section id="transform">
+      <h1>Transform</h1>
+      <h3>Scale</h3>
+      <p>
+        Scale: scaleX; scaleY; scaleZ; scale; scale3d;<br>
+        Scale nusako kaip keičiasi elemento dydis. Default dydis yra 1.
+      </p>
+      <h3>Translate</h3>
+      <p>
+        Translate: translateX; translateY; translateZ; translate; translate3d;<br>
+        Translate nusako į kurią pusę ir kokiu atstumu elementas pajudės.
+      </p>
+      <h3>Rotate</h3>
+      <p>
+        Rotate: rotateX; rotateY; rotateZ; rotate; rotate3d;<br>
+        Rotate nusako kurioje ašyje ir kiek elementas suksis.
+      </p>
+      <h3>Skew</h3>
+      <p>
+        Skew: skewX; skewY; skew;<br>
+        Skew nusako kaip yra ištempiami elemento kampai.
+      </p>
+    </section>
+    <section id="animation">
+      <h1>Animation</h1>
+      <ul>
+        <li>animation-duration - animacijos trukmė</li>
+        <li>animation-timing-function - animacijos tekmė per pateiktą laiką</li>
+        <li>animation-delay - animacijos užlaikymas</li>
+        <li>animation-iteration-count - animacijos vykdymo kartai</li>
+        <li>animation-direction - animacijos vykdymo kryptis</li>
+        <li>animation-fill-mode - nusako kokia bus elemento būsena prieš ir/ar po animacijos</li>
+        <li>animation-play-state - animacijos būsena</li>
+        <li>animation-name - animacijos vardas</li>
+        <li>animation - apjungia visus animacijos nustatymus</li>
+      </ul>
+      <h1>KeyFrames</h1>
+      <p>
+        @keyframes animation-name { ... }<br>
+        Animacijos frame'ai aprašomi nuo(from) - iki(to) arba procentaliai nuo(0%) - iki(100%).<br>
+        Animacijos laikas yra skirtomas frame'ams pagal jų procentalius nurodymus.
+      </p>
+    </section>
+    <section id="animationPvz">
+      <button id="jsAniControl">Stabdyti animaciją</button>
+      <input type="checkbox" id="aniStopRun">
+      <label for="aniStopRun">Stabdyti/Leisti animacija</label>
+      <div class="anim1"></div>
+    </section>
+  </main>
+
+  <script>
+    document
+      .querySelector("#jsAniControl")
+      .addEventListener("click", (event) => {
+        console.log(event);
+        if(event.target.textContent === "Stabdyti animaciją"){
+          event.target.textContent = "Leisti animaciją";
+          document.querySelector('.anim1').style.animationPlayState = "paused";
+        } else if(event.target.textContent === "Leisti animaciją"){
+          event.target.textContent = "Stabdyti animaciją";
+          document.querySelector('.anim1').style.animationPlayState = "running";
+        } else {
+          window.alert('We bugged out or something...');
+        }
+      });
+  </script>
+</body>
+</html>
